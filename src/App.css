@@ -1,0 +1,54 @@
+.container{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app{
+  background-image: url(https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGV0JTIwZm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+  background-color: #FFC6D3;
+  
+} 
+
+.crossed{
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  border-radius: 15%;
+  margin: 5px;
+}
+.red{
+  background-color: #E0144C;
+}
+.green{
+  background-color: #377D71;
+}
+img{
+  border-radius: 50%;
+  padding: 20px;
+}
+
+input{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  
+  border: 2px black solid;
+  margin: 10px;
+}
+
+ul, li{
+  list-style-type: none;
+  padding:10px;
+  margin: 0;
+}
